@@ -46,11 +46,14 @@ def sum_array(array)
 end
 def add_s(array)
   i = 0
-  array.map! do |word|
-    unless i == 1
-      word.concat("s")
+  new_array = []
+  array.each do |word|
+    if i != 1
+      new_array[i] = word + "s"
+    else
+      new_array[i] = word
     end
     i += 1
   end
-  return array
+  return new_array
 end
