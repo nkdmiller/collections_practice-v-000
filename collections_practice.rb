@@ -31,5 +31,5 @@ def kesha_maker(array)
     kesha_array[i][2] = "$"
     i += 1
   end
-  puts kesha_array
+  return kesha_array
 end
