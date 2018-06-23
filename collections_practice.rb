@@ -33,4 +33,3 @@ def kesha_maker(array)
   end
   puts kesha_array
 end
-kesha_maker(["bug", "ass", "sun"])
