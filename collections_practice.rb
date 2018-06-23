@@ -14,9 +14,5 @@ def sort_array_char_count(array)
   end
 end
 def swap_elements(array)
-  array.sort do |a, b|
-    if a.eql?(array[1]) && b.eql?(array[2])
-      1
-    end
-  end
+  array[1], array[2] = array[2], array[1]
 end
