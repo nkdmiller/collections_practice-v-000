@@ -31,6 +31,6 @@ def kesha_maker(array)
       end
     end
   end
-  return array
+  puts array
 end
 kesha_maker(["bug", "ass", "sun"])
