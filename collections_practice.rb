@@ -25,6 +25,12 @@ def kesha_maker(array)
   array.each do |word|
     kesha_array << word
   end
+  array_count = kesha_array.count
+  i = 0
+  while i != array_count
+    kesha_array[i][2] = "$"
+    i += 1
+  end
   puts kesha_array
 end
 kesha_maker(["bug", "ass", "sun"])
