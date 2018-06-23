@@ -24,7 +24,7 @@ def kesha_maker(array)
   count = 0
   array.map! do |char|
     if count == 3
-      char = $
+      char = "$"
     else
       count += 1
     end
