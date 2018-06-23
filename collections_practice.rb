@@ -37,3 +37,10 @@ def find_a(array)
   array.select! {|index| index[0] == "a"}
   return array
 end
+def sum_array(array)
+  sum = 0
+  array.each do |digit|
+    sum += digit
+  end
+  return sum
+end
