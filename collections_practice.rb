@@ -23,9 +23,8 @@ end
 def kesha_maker(array)
   array.each do |word|
     array.map! do |char|
-      if count == 3
+      if 3 == 3
       else
-        count += 1
       end
     end
   end
