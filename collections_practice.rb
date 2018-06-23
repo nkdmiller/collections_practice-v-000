@@ -21,12 +21,14 @@ def reverse_array(array)
   array.reverse
 end
 def kesha_maker(array)
-  count = 0
-  array.map! do |char|
-    if count == 3
-      char = "$"
-    else
-      count += 1
+  array.each do |word|
+    count = 0
+    array.map! do |char|
+      if count == 3
+        char = "$"
+      else
+        count += 1
+      end
     end
   end
   return array
