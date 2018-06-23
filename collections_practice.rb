@@ -34,6 +34,6 @@ def kesha_maker(array)
   return kesha_array
 end
 def find_a(array)
-  array.select("a")
+  array.select {|index| index[0] == "a"}
   return array
 end
