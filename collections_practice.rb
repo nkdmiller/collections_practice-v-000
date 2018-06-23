@@ -22,7 +22,7 @@ def reverse_array(array)
 end
 def kesha_maker(array)
   array.each do |word|
-    array.map! do |char|
+    array.map do |char|
       if 3 == 3
       else
       end
