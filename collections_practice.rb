@@ -21,12 +21,9 @@ def reverse_array(array)
   array.reverse
 end
 def kesha_maker(array)
+  kesha_array = []
   array.each do |word|
-    array.map do |char|
-      if 3 == 3
-      else
-      end
-    end
+    kesha_array << word
   end
   puts array
 end
